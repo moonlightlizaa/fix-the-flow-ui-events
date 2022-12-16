@@ -46,6 +46,20 @@ a:hover {
   border-color: var(--secondary);
 }
 
+/* 
+    0 Color Change : double click
+*/
+
+.green {
+  background: var(--highlight-primary);
+  color: var(--secondary);
+}
+
+.pink {
+  background: #ff61ff;
+  color: var(--secondary);
+  border-color: #ff61ff;
+}
 /*
       1 Interactie voor frontend: Vibrate 
  */

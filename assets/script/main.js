@@ -63,3 +63,18 @@ interaction.addEventListener("animationend", bounceHandler);
 function bounceHandler() {
   interaction.classList.toggle("bounce");
 }
+
+// 0 color change
+
+const button = document.querySelectorAll("a");
+
+button.forEach((button) => {
+  // Single click event listener
+  button.addEventListener("click", function () {
+    button.classList.add("green");
+  });
+
+  button.addEventListener("dblclick", function () {
+    button.classList.add("pink");
+  });
+});
