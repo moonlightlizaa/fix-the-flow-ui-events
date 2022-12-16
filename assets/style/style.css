@@ -147,8 +147,27 @@ a:hover {
 }
 
 /*
-   Interactie: INTERACTION Button
-   bounce Interactie
+      5 Interactie voor Sprint 5: Blink
+ */
+
+.blink {
+  animation: blink 0.9s both;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.2;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/*
+      12 Interactie voor Interaction: Bounce    
  */
 
 a:nth-of-type(12) {

@@ -34,7 +34,14 @@ function pulseHandler() {
   development.classList.toggle("pulse");
 }
 
-// 5 Interactie voor Sprint 5:
+// 5 Interactie voor Sprint 5: Blink - click
+
+let sprint5 = document.querySelector("a:nth-of-type(5)");
+sprint5.addEventListener("click", blinkHandler);
+sprint5.addEventListener("animationend", blinkHandler);
+function blinkHandler() {
+  sprint5.classList.toggle("blink");
+}
 
 // 6 Interactie voor Fix:
 
