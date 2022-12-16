@@ -47,7 +47,7 @@ a:hover {
 }
 
 /* 
-    0 Color Change : double click
+    0 Color Changes click + double click + long press
 */
 
 .green {
@@ -60,6 +60,13 @@ a:hover {
   color: var(--secondary);
   border-color: #ff61ff;
 }
+
+.red {
+  background: #ff6161;
+  color: var(--secondary);
+  border-color: #ff6161;
+}
+
 /*
       1 Interactie voor frontend: Vibrate 
  */
@@ -177,6 +184,32 @@ a:hover {
   }
   100% {
     opacity: 1;
+  }
+}
+
+/*
+      6 Interactie voor Fix: Shadow  
+ */
+
+.shadow-1 {
+  animation: shadow-1 2s linear infinite alternate both;
+}
+
+@keyframes shadow-1 {
+  0% {
+    background: #19dcea;
+  }
+  25% {
+    background: #b22cff;
+  }
+  50% {
+    background: #ea2222;
+  }
+  75% {
+    background: #f5be10;
+  }
+  100% {
+    background: #3bd80d;
   }
 }
 
