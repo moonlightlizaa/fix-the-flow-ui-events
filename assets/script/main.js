@@ -25,7 +25,7 @@ function flipHandler() {
   and.classList.toggle("flip-1");
 }
 
-// 4 Interactie voor Development: pulse - click
+// 4 Interactie voor Development: Pulse - click
 
 let development = document.querySelector("a:nth-of-type(4)");
 development.addEventListener("click", pulseHandler);
