@@ -47,10 +47,10 @@ a:hover {
 }
 
 /* 
-    0 Color Changes click + double click + long press
+    0 Color Changes click + double click 
 */
 
-.green {
+.blue {
   background: var(--highlight-primary);
   color: var(--secondary);
 }
@@ -197,19 +197,19 @@ a:hover {
 
 @keyframes shadow-1 {
   0% {
-    background: #19dcea;
+    background: #7ce7c9;
   }
   25% {
-    background: #b22cff;
+    background: #9d7beb;
   }
   50% {
-    background: #ea2222;
+    background: #eb7b7b;
   }
   75% {
-    background: #f5be10;
+    background: #8aeb7b;
   }
   100% {
-    background: #3bd80d;
+    background: #ebac7b;
   }
 }
 
