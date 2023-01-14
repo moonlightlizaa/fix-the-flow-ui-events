@@ -85,12 +85,10 @@ button.forEach((button) => {
   });
 });
 
-// reset
+// Reset
 
-button.forEach((button) => {
-  button.addEventListener("keydown", function (event) {
-    if (event.key === "a") {
-      button.classList.add("reset");
-    }
-  });
+document.addEventListener("keydown", (event) => {
+  if (event.code === "Space") {
+    location.reload();
+  }
 });

@@ -67,6 +67,30 @@ a:hover {
   border-color: #ff6161;
 }
 
+/* uitleg */
+
+.uitleg {
+  background-color: var(--highlight-secondary);
+  padding: 20px;
+  border-radius: 40px;
+  margin-bottom: 50px;
+  width: 700px;
+}
+
+.uitleg h1 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 2em;
+  color: var(--primary);
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.uitleg-tekst {
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.65em;
+  color: var(--primary);
+}
+
 /*
       1 Interactie voor frontend: Vibrate 
  */
@@ -188,7 +212,7 @@ a:hover {
 }
 
 /*
-      6 Interactie voor Fix: Shadow  
+      6 Interactie voor Fix: kleur
  */
 
 .shadow-1 {
