@@ -5,7 +5,7 @@ Een oefening in ui-events waarin je experimenteert met muis, keyboard, touch én
 
 ## Beschrijving
 
-<img width="1792" alt="Screenshot 2023-01-15 at 12 47 25 AM" src="https://user-images.githubusercontent.com/106411511/212502018-c9206a62-0b86-4610-8d6a-3c46824d10c1.png">
+<img width="1665" alt="Screenshot 2023-01-15 at 12 50 41 AM" src="https://user-images.githubusercontent.com/106411511/212502119-f8d4ecbd-7333-4517-84ca-468d7ad52c03.png">
 
 Je kan op de site op de knoppen drukken voor een leuke interactie! Er is een beschrijving bij zodat je weet wat je allemaal kan doen.  
 
